@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="uzd.css">
+<link rel="stylesheet" href="uzdtop.css">
+<title>Grūts uzdevums</title>
+</head>
+<body>
+    <div class="topnav" style="padding-top: 14px; padding-bottom: 14px;">
+    <a class="active" href="http://127.0.0.1:5500/kvadr%C4%81ts/index.html" style="margin-left: 800px;">KVADRĀTS</a>
+    <a href="http://127.0.0.1:5500/uzdevumi/uzdtest.html">UZDEVUMI</a>
+    </div>
+    <br>
+    <div class="container">
+      1. Kas ir kvadrāta laukums?<hr>
+      <input type="radio" name="question1" id="correct1">Lielums, kas raksturo virsmas izmēru<br>
+      <input type="radio" name="question1" id="correct1.1">Mala reiz mala<br style="margin-top: 5px;">
+      <button class="next" onclick="next(1)">Nākamais</button>
+  </div><br>
+
+  <div class="container">
+      2. Aprēķini kvadrāta laukumu, ja vienas malas garums ir 8cm.<hr>
+      <h3>S=...</h3>
+      <input type="radio" name="question2">32cm<sup>2</sup><br>
+      <input type="radio" name="question2">48cm<sup>2</sup><br style="margin-top: 5px;">
+      <input type="radio" name="question2" id="correct2">64cm<sup>2</sup><br style="margin-top: 5px;">
+      <button class="next" onclick="next(2)">Nākamais</button>
+      <img src="bildes/kvadratsS.png" style="margin-top: 143px;width: 600px;float: right;margin-right: 300px;">
+  </div><br>
+
+  <div class="container">
+      3. Aprēķini kvadrāta laukumu, ja viena rūtiņa ir 5cm.<hr>
+      <h3>S=...</h3>
+      <input type="radio" name="question3">50<br>
+      <input type="radio" name="question3">20<br style="margin-top: 5px;">
+      <input type="radio" name="question3" id="correct3">25<br style="margin-top: 5px;">
+      <img src="bildes/Screenshot_4.png" style="width: 400px;float: right;margin-right: 300px;margin-top: 100px;">
+      <button class="next" onclick="next(3)">Nākamais</button>
+  </div><br>
+
+  <div class="container">
+    4. Kvadrāta laukumu ir 100cm<sup>2</sup>. Cik garas ir kvadrāta malas?<hr>
+    <input type="radio" name="question4">20<br>
+    <input type="radio" name="question4" id="correct4">10<br style="margin-top: 5px;">
+    <input type="radio" name="question4">25<br>
+    <button class="next" onclick="next(4)">Nākamais</button>
+    <img src="bildes/Screenshot_4.png" style="width: 400px;float: right;margin-right: 300px;margin-top: 100px;">
+</div><br>
+
+<div class="container">
+      5. Aprēķini A un B kvadrāta laukumu.<hr>
+      <h3>A kvadrāts 4cm</h3>
+      <h3>S=...</h3>
+      <input type="radio" name="question5" id="correct5">16cm<sup>2</sup><br>
+      <input type="radio" name="question5">20cm<sup>2</sup><br style="margin-top: 5px;">
+      <input type="radio" name="question5">12cm<sup>2</sup><br>
+      <h3>B kvadrāts 9cm</h3>
+      <h3>S=...</h3>
+      <input type="radio" name="question5.1">90cm<sup>2</sup><br>
+      <input type="radio" name="question5.1" id="correct5.1">81cm<sup>2</sup><br style="margin-top: 5px;">
+      <input type="radio" name="question5.1">80cm<sup>2</sup><br>
+      <img src="bildes/Screenshot_1.png" style="width: 500px;float: right;margin-right: 300px;margin-top: 100px;">
+      <button onclick="result()">Iesniegt atbildes</button>
+  </div><br>
+  <script src="grutsuzd.js"></script>
+</body>    
+</html>
