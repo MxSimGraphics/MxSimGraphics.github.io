@@ -1,0 +1,31 @@
+img{
+  width: 430px;
+}
+#viegls{
+  height: 260px;
+  transition: 1s;
+}
+#viegls:hover{
+  transform: scale(1.15);
+}
+#videjs{
+  height: 260px;
+  transition: 1s;
+}
+#videjs:hover{
+  transform: scale(1.15);
+}
+#gruts{
+  height: 260px;
+  transition: 1s;
+}
+#gruts:hover{
+  transform: scale(1.15);
+}
+#pd{
+  height: 260px;
+  transition: 1s;
+}
+#pd:hover{
+  transform: scale(1.15);
+}
